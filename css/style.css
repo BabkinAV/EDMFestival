@@ -1,0 +1,177 @@
+body {
+     font-family: 'Montserrat',sans-serif;
+}
+.bg-danger {
+     background-color: #f53756!important;
+}
+.bg-success {
+     background-color: #4cb8b3!important;
+}
+.bg-warning {
+     background-color: #fef46d!important;
+}
+.bg-secondary {
+     background-color: #752f97!important;
+}
+
+/** Main Nav **/
+#main-nav {
+     transition: all .3s ease;
+}
+.fixed-top .nav-link {
+     color: #ffffff;
+}
+.fixed-top.bg-success {
+     -webkit-box-shadow: 11px 10px 18px 1px rgba(0,0,0,0.52);
+     -moz-box-shadow: 11px 10px 18px 1px rgba(0,0,0,0.52);
+     box-shadow: 11px 10px 18px 1px rgba(0,0,0,0.52);
+}
+.navbar-brand {
+     font-size: 1.8rem;
+     font-weight: 400;
+     color: #ffffff !important;
+}
+.navbar-brand span {
+     font-weight: 700;
+}
+
+.nav-link.active {
+     background-color: #752f97 !important;
+}
+
+
+/** Main Video **/
+.embed-responsive {
+     position: relative;
+     background-image: url(../img/rockband.jpg);
+     background-size: cover;
+     background-position: center center;
+     height: 50rem;
+}
+.embed-responsive:after {
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     content: '';
+     top: 0;
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cc2e4b+0,8f7baf+28,8f7baf+76,bc663e+100,66b6fc+100&0.5+0,0.8+100 */
+     background: -moz-linear-gradient(-45deg, rgba(204,46,75,0.5) 0%, rgba(143,123,175,0.58) 28%, rgba(143,123,175,0.73) 76%, rgba(102,182,252,0.8) 100%); /* FF3.6-15 */
+     background: -webkit-linear-gradient(-45deg, rgba(204,46,75,0.5) 0%,rgba(143,123,175,0.58) 28%,rgba(143,123,175,0.73) 76%,rgba(102,182,252,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(135deg, rgba(204,46,75,0.5) 0%,rgba(143,123,175,0.58) 28%,rgba(143,123,175,0.73) 76%,rgba(102,182,252,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80cc2e4b', endColorstr='#cc66b6fc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+@media (min-width: 992px) {
+     .embed-responsive {
+          background-image: unset;
+          height: auto;
+     }
+}
+.festival-info {
+     position: absolute;
+     z-index: 100;
+     top: 20%;
+}
+.festival-info h1 {
+     font-size: 2.2rem;
+     line-height: 6rem;
+}
+@media (min-width: 768px) {
+     .festival-info {
+          top: 30%;
+     }
+     .festival-info h1 {
+          font-size: 4rem;
+          line-height: unset;
+     }
+}
+.festival-info h1 span,
+.festival-info p {
+     font-weight: 700;
+     -webkit-box-shadow: 11px 10px 18px 1px rgba(0,0,0,0.52);
+     -moz-box-shadow: 11px 10px 18px 1px rgba(0,0,0,0.52);
+     box-shadow: 11px 10px 18px 1px rgba(0,0,0,0.52);
+}
+.festival-info p {
+     font-size: 2rem;
+}
+.festival-info .text-dark,
+.main-content .text-dark {
+     color:  #f53756!important;
+     font-weight: 700;
+}
+
+/** Lineup **/
+.separator::after {
+     content: '';
+     display: block;
+     width: 300px;
+     height: 120px;
+     background-size: 120px;
+     background-position: center center;
+     background-repeat: no-repeat;
+     margin: 0 auto;
+}
+
+.rock::after {
+     background-image: url(../img/rock.png);
+}
+
+.dj::after {
+     background-image: url(../img/electronic.png);
+}
+.times.bg-success  li:nth-child(2n+1) {
+     background-color: #3ca8a2 !important;
+     
+
+}
+
+.times.bg-warning li:nth-child(2n+1) {
+     background-color: #eae05b !important;
+     
+}
+
+/** Date **/
+.countdown h2 {
+     font-size: 1.6rem;
+}
+@media (min-width:768px) {
+     .countdown h2 {
+          font-size: 6rem;
+     }
+}
+.date {
+     font-size: 2.8rem;
+
+}
+.date span {
+     font-weight: 700;
+}
+
+
+.date span:first-child::before {
+     display: none;
+}
+.date span::before {
+     content: '';
+     display: block;
+}
+
+@media (min-width: 768px) {
+     .date span::before {
+          content: '-';
+          display: inline;
+     }
+}
+
+/** Tickets **/
+.tickets .price {
+     font-size: 2rem;
+}
+.tickets .active {
+     background-color: #752f97 !important;
+     border-color: #752f97 !important;
+}
+.list-group-item-success {
+     background-color: #4cb8b3;
+}
