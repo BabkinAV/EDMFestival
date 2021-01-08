@@ -1,4 +1,4 @@
-## ROCK & EDM Festival 
+# ROCK & EDM Festival 
 
 Simple landing page created with Bootstrap 4.1.3  and utilizing fully responsive layout with video cover embed in the hero section
 
